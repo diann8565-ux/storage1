@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "metadata": {
-    "id": "theme-emerald-1787745815131",
+    "id": "theme-emerald-1787746223348",
     "name": "Blue Butterfly",
     "slug": "blue-butterfly",
     "version": "1.0.0",
@@ -15,10 +15,9 @@
     ],
     "author": "InviteWeed AI Studio",
     "previewImages": {
-      "thumbnail": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600",
-      "banner": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200"
+      "thumbnail": "http://localhost:3000/themes/blue-butterfly/bm.webp"
     },
-    "createdAt": "2026-08-26T12:03:35.131Z"
+    "createdAt": "2026-08-26T12:10:23.348Z"
   },
   "globalConfig": {
     "colors": {
