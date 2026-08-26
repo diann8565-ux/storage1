@@ -1,0 +1,1 @@
+console.log("single asset test");
