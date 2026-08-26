@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "id": "theme-emerald-1787745815131",
+    "name": "Blue Butterfly",
+    "slug": "blue-butterfly",
+    "version": "1.0.0",
+    "category": "scroll",
+    "style": "floral",
+    "tags": [
+      "emerald",
+      "gold",
+      "botanical",
+      "luxury"
+    ],
+    "author": "InviteWeed AI Studio",
+    "previewImages": {
+      "thumbnail": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600",
+      "banner": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200"
+    },
+    "createdAt": "2026-08-26T12:03:35.131Z"
+  },
+  "globalConfig": {
+    "colors": {
+      "primary": "#059669",
+      "secondary": "#d97706",
+      "accent": "#10b981",
+      "background": "#fcfbf7",
+      "backgroundAlt": "#f4f1ea",
+      "surface": "#ffffff",
+      "surfaceBorder": "#e2e8f0",
+      "textPrimary": "#0f172a",
+      "textSecondary": "#475569",
+      "textMuted": "#94a3b8",
+      "textInvert": "#ffffff",
+      "overlayColor": "rgba(15, 23, 42, 0.6)"
+    },
+    "typography": {
+      "headingFont": "Playfair Display",
+      "bodyFont": "Plus Jakarta Sans",
+      "accentFont": "Great Vibes",
+      "fontSizeScale": "normal"
+    },
+    "ornaments": {
+      "floatingParticles": "leaves"
+    },
+    "audio": {
+      "defaultMusicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "musicTitle": "A Thousand Years (Acoustic Guitar)",
+      "musicArtist": "InviteWeed Romantic Strings",
+      "autoPlay": true,
+      "buttonPosition": "bottom-right"
+    },
+    "animations": {
+      "entrance": "fade-up",
+      "duration": 600,
+      "staggerDelay": 150,
+      "scrollEffect": "reveal"
+    }
+  },
+  "sections": [
+    {
+      "id": "cover-1",
+      "type": "cover",
+      "enabled": true,
+      "order": 1,
+      "layoutVariant": "cover-fullscreen-overlay",
+      "content": {
+        "title": "The Wedding Celebration Of",
+        "coupleTitle": "Bagus & Amanda",
+        "weddingDate": "2026-12-25",
+        "guestGreetingText": "Kepada Yth. Bapak/Ibu/Saudara/i",
+        "openButtonText": "Buka Undangan",
+        "heroImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200"
+      }
+    },
+    {
+      "id": "opening-1",
+      "type": "opening",
+      "enabled": true,
+      "order": 2,
+      "layoutVariant": "opening-islamic-bismillah",
+      "content": {
+        "salamText": "Assalamu'alaikum Warahmatullahi Wabarakatuh",
+        "introText": "Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta’ala, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri hari bahagia pernikahan kami:"
+      }
+    },
+    {
+      "id": "quote-1",
+      "type": "quote",
+      "enabled": true,
+      "order": 3,
+      "layoutVariant": "quote-islamic-card",
+      "content": {
+        "arabicText": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
+        "translation": "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.",
+        "source": "QS. Ar-Rum: 21"
+      }
+    },
+    {
+      "id": "mempelai-1",
+      "type": "mempelai",
+      "enabled": true,
+      "order": 4,
+      "layoutVariant": "mempelai-arch-cards",
+      "content": {
+        "introText": "Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. Izinkan kami menyatukan cinta dalam ikatan pernikahan:",
+        "positionOrder": "pria_first",
+        "pria": {
+          "fullName": "Bagus Pratama, S.Kom",
+          "nickname": "Bagus",
+          "parentInfo": "Putra pertama dari Bpk. H. Bambang Subagyo & Ibu Hj. Siti Nurhaliza",
+          "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600",
+          "instagram": "@bagus.pratama"
+        },
+        "wanita": {
+          "fullName": "Amanda Putri Lestari, S.E",
+          "nickname": "Amanda",
+          "parentInfo": "Putri kedua dari Bpk. Ir. Hendra Gunawan & Ibu Ratna Kumalasari",
+          "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600",
+          "instagram": "@amanda.putri"
+        }
+      }
+    },
+    {
+      "id": "acara-1",
+      "type": "acara",
+      "enabled": true,
+      "order": 5,
+      "layoutVariant": "acara-card-grid",
+      "content": {
+        "title": "Rangkaian Acara",
+        "subtitle": "Dengan penuh rasa syukur, kami mengundang Anda untuk hadir dalam momen bahagia kami:",
+        "events": [
+          {
+            "id": "event-1",
+            "name": "Akad Nikah",
+            "type": "akad",
+            "date": "2026-12-25",
+            "startTime": "08:00",
+            "endTime": "10:00",
+            "timezone": "WIB",
+            "venueName": "Masjid Agung Al-Barkah",
+            "address": "Jl. Pemuda No. 45, Kebayoran Baru, Jakarta Selatan",
+            "googleMapsUrl": "https://maps.google.com/?q=Masjid+Agung+Al-Barkah",
+            "showCountdown": true
+          },
+          {
+            "id": "event-2",
+            "name": "Resepsi Pernikahan",
+            "type": "resepsi",
+            "date": "2026-12-25",
+            "startTime": "11:00",
+            "endTime": "14:00",
+            "timezone": "WIB",
+            "venueName": "Grand Ballroom Hotel Mulia",
+            "address": "Jl. Asia Afrika Senayan, Jakarta Pusat",
+            "googleMapsUrl": "https://maps.google.com/?q=Grand+Ballroom+Hotel+Mulia",
+            "showCountdown": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "countdown-1",
+      "type": "countdown",
+      "enabled": true,
+      "order": 6,
+      "layoutVariant": "countdown-boxes",
+      "content": {
+        "targetDate": "2026-12-25T08:00:00+07:00",
+        "title": "Menghitung Hari",
+        "subtitle": "Menuju hari bahagia penyatuan janji suci kami",
+        "labels": {
+          "days": "Hari",
+          "hours": "Jam",
+          "minutes": "Menit",
+          "seconds": "Detik"
+        }
+      }
+    },
+    {
+      "id": "cerita-1",
+      "type": "cerita",
+      "enabled": true,
+      "order": 7,
+      "layoutVariant": "cerita-timeline-vertical",
+      "content": {
+        "title": "Kisah Cinta Kami",
+        "subtitle": "Bagaimana semesta mempertemukan dua insan menjadi satu hati",
+        "stories": [
+          {
+            "id": "story-1",
+            "dateOrYear": "Januari 2021",
+            "title": "Awal Perjumpaan",
+            "story": "Sebuah pertemuan tak terduga di sudut perpustakaan kampus mengawali percakapan sederhana kami."
+          },
+          {
+            "id": "story-2",
+            "dateOrYear": "Februari 2024",
+            "title": "Hari Lamaran",
+            "story": "Dengan restu kedua orang tua dan keluarga besar, kami melangkah menuju ikatan suci yang abadi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gallery-1",
+      "type": "gallery",
+      "enabled": true,
+      "order": 8,
+      "layoutVariant": "gallery-masonry-lightbox",
+      "content": {
+        "title": "Galeri Bahagia",
+        "subtitle": "Momen-momen indah perjalanan kami menuju hari bahagia",
+        "layout": "masonry",
+        "photos": [
+          {
+            "id": "p1",
+            "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800",
+            "caption": "Prewedding in Ubud"
+          },
+          {
+            "id": "p2",
+            "url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800",
+            "caption": "Sunset in Canggu"
+          },
+          {
+            "id": "p3",
+            "url": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800",
+            "caption": "Traditional Attire"
+          },
+          {
+            "id": "p4",
+            "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800",
+            "caption": "Engagement Ring"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rekening-1",
+      "type": "rekening",
+      "enabled": true,
+      "order": 9,
+      "layoutVariant": "rekening-bank-copy",
+      "content": {
+        "title": "Tanda Kasih (Digital Envelope)",
+        "subtitle": "Doa restu Anda merupakan karunia terindah bagi kami. Namun jika ingin memberikan tanda kasih secara digital, dapat melalui:",
+        "accounts": [
+          {
+            "id": "acc-1",
+            "bankName": "BCA",
+            "accountNumber": "8820192831",
+            "accountHolder": "Bagus Pratama",
+            "copyButtonText": "Salin No. Rekening"
+          },
+          {
+            "id": "acc-2",
+            "bankName": "Mandiri",
+            "accountNumber": "1370019283741",
+            "accountHolder": "Amanda Putri Lestari",
+            "copyButtonText": "Salin No. Rekening"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rsvp-1",
+      "type": "rsvp",
+      "enabled": true,
+      "order": 10,
+      "layoutVariant": "rsvp-form-card",
+      "content": {
+        "title": "Konfirmasi Kehadiran & Doa Restu",
+        "subtitle": "Mohon konfirmasikan kehadiran Bapak/Ibu/Saudara/i untuk kenyamanan bersama",
+        "allowGuestCount": true,
+        "maxGuests": 4
+      }
+    },
+    {
+      "id": "komentar-1",
+      "type": "komentar",
+      "enabled": true,
+      "order": 11,
+      "layoutVariant": "komentar-stream-list",
+      "content": {
+        "title": "Ucapan & Doa Restu",
+        "subtitle": "Berikan ucapan manis dan doa restu untuk kedua mempelai tercinta",
+        "enablePagination": true,
+        "allowAttendanceStatus": true
+      }
+    },
+    {
+      "id": "prokes-1",
+      "type": "prokes",
+      "enabled": true,
+      "order": 12,
+      "layoutVariant": "prokes-icon-grid",
+      "content": {
+        "title": "Informasi & Protokol",
+        "subtitle": "Demi kenyamanan dan kelancaran bersama, kami menghimbau para tamu undangan:",
+        "items": [
+          {
+            "icon": "mask",
+            "text": "Menggunakan Masker"
+          },
+          {
+            "icon": "wash",
+            "text": "Mencuci Tangan"
+          },
+          {
+            "icon": "distance",
+            "text": "Menjaga Jarak"
+          },
+          {
+            "icon": "dresscode",
+            "text": "Dresscode: Formal Pastel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "closing-1",
+      "type": "closing",
+      "enabled": true,
+      "order": 13,
+      "layoutVariant": "closing-centered-signature",
+      "content": {
+        "text": "Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kedua mempelai.",
+        "familyGreeting": "Kami yang berbahagia,",
+        "coupleNames": "Bagus & Amanda",
+        "familyNames": "Keluarga Besar Bpk. Bambang Subagyo & Bpk. Hendra Gunawan",
+        "footerText": "InviteWeed Digital Invitation Platform"
+      }
+    }
+  ],
+  "responsiveLayout": {
+    "mobile": {
+      "maxWidth": "100%",
+      "padding": "1rem",
+      "cardRadius": "1rem",
+      "navigation": "floating-bottom-bar"
+    },
+    "tablet": {
+      "maxWidth": "640px",
+      "centered": true,
+      "containerShadow": "xl",
+      "backgroundFrame": "blurred-hero"
+    },
+    "desktop": {
+      "mode": "split-screen",
+      "splitRatio": "50/50",
+      "leftPanel": {
+        "type": "hero-banner",
+        "sticky": true,
+        "coupleHeadline": true,
+        "countdownTimer": true
+      },
+      "rightPanel": {
+        "width": "480px",
+        "scrollContainer": true
+      },
+      "mockupFrame": {
+        "enabled": true,
+        "frameStyle": "iphone-15",
+        "shadow": "2xl"
+      }
+    }
+  }
+}
